@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class User {
     @Id
     @Column(name = "id")
-    Integer id;
+    Long id;
     @Column(name = "login")
     String login;
     @Column(name = "password")
